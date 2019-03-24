@@ -1,8 +1,7 @@
 shipkit {
    gitHub.repository = "mstachniuk/shipkit-bitrise-example"
 
-   //TODO generate and use your own read-only GitHub personal access token
-   gitHub.readOnlyAuthToken = "76826c9ec886612f504d12fd4268b16721c4f85d"
+   gitHub.readOnlyAuthToken = "9d4b3a01beea6efceca5bddcc0100f81e8dafee1"
 
    gitHub.writeAuthToken = System.getenv("GH_WRITE_TOKEN")
 }
